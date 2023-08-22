@@ -3,50 +3,44 @@
 # @see https://drupal.org/docs/theming-drupal/working-with-breakpoints-in-drupal
 
 # Mobile breakpoint - 0px and up.
-rapidkit_image_styles.mobile:
-  label: mobile
+rapidkit_image_styles.xs:
+  label: X-Small
   mediaQuery: ''
   weight: 0
   multipliers:
     - 1x
-    - 2x
 # sm breakpoint - 640px and up.
 rapidkit_image_styles.sm:
-  label: small
+  label: Small
   mediaQuery: 'all and (min-width: 640px)'
   weight: 1
   multipliers:
     - 1x
-    - 2x
 # md breakpoint - 768px and up.
 rapidkit_image_styles.md:
-  label: medium
+  label: Medium
   mediaQuery: 'all and (min-width: 768px)'
   weight: 2
   multipliers:
     - 1x
-    - 2x
 # lg breakpoint - 1024px and up.
 rapidkit_image_styles.lg:
-  label: large
+  label: Large
   mediaQuery: 'all and (min-width: 1024px)'
   weight: 3
   multipliers:
     - 1x
-    - 2x
 # xl breakpoint - 1280px and up.
 rapidkit_image_styles.xl:
-  label: extra large
+  label: X-Large
   mediaQuery: 'all and (min-width: 1280px)'
   weight: 4
   multipliers:
     - 1x
-    - 2x
 # 2xl breakpoint - 1536px and up.
 rapidkit_image_styles.2xl:
-  label: 2x extra large
+  label: XX-Large
   mediaQuery: 'all and (min-width: 1536px)'
   weight: 5
   multipliers:
     - 1x
-    - 2x
