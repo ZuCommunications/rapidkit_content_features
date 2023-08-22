@@ -1,0 +1,9 @@
+name: RapidKit Image Styles
+description: "Provides standard responsive image styles."
+type: module
+core_version_requirement: ^10
+package: RapidKit
+dependencies:
+  - drupal:image
+  - drupal:responsive_image
+  - image_widget_crop:image_widget_crop

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 1_1_small
+label: '1:1 Small (200 x 200)'
+effects:
+  18354ffc-f1b4-484f-99be-bab55f4b70b0:
+    uuid: 18354ffc-f1b4-484f-99be-bab55f4b70b0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center
