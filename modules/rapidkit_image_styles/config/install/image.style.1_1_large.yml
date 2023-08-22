@@ -1,14 +1,27 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - crop.type.1_1
+  module:
+    - crop
+_core:
+  default_config_hash: LjdV8P_YogGRC09fa9K7yNt5Xl_bv6944UEATsku6xs
 name: 1_1_large
 label: '1:1 Large (800 x 800)'
 effects:
   54846f7e-f37a-4948-ba88-09a5f80be71a:
     uuid: 54846f7e-f37a-4948-ba88-09a5f80be71a
     id: image_scale_and_crop
-    weight: 1
+    weight: -9
     data:
       width: 800
       height: 800
       anchor: center-center
+  e1a76418-22bd-4ca5-a38c-c71fe63da447:
+    uuid: e1a76418-22bd-4ca5-a38c-c71fe63da447
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: '1_1'
+      automatic_crop_provider: null
