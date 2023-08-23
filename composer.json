@@ -19,7 +19,6 @@
     "drupal/field_group": "^3.4",
     "drupal/geolocation": "^3.12",
     "drupal/honeypot": "^2.1",
-    "drupal/image_widget_crop": "^2.4",
     "drupal/inline_block_title_automatic": "^1.1",
     "drupal/layout_builder_browser": "^1.5",
     "drupal/layout_builder_modal": "^1.2",
