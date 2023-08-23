@@ -5,8 +5,6 @@ dependencies:
     - crop.type.1_1
   module:
     - crop
-_core:
-  default_config_hash: 48SncdAB7-oznnB58_OalW10rDNaxR26eh7JqYcoFVY
 name: 1_1_medium
 label: '1:1 Medium (400 x 400)'
 effects:
