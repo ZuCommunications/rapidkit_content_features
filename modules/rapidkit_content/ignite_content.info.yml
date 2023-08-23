@@ -1,5 +1,5 @@
 name: RapidKit Content
-description: "Provides shared node fields for other node-based features."
+description: "Provides features and fields for other node bundles."
 type: module
 core_version_requirement: ^10
 package: RapidKit
