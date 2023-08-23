@@ -6,4 +6,4 @@ package: RapidKit
 dependencies:
   - drupal:image
   - drupal:responsive_image
-  - rapidkit_core:rapidkit_media_bundle
+  - rapidkit_media_bundle:rapidkit_media_bundle
