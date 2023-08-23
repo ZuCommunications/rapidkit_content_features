@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - image.style.4_3_large
-    - image.style.4_3_large_2x
+    - image.style.4_3_x_large
     - image.style.4_3_medium
     - image.style.4_3_small
   module:
@@ -13,7 +13,7 @@ label: '4:3'
 image_style_mappings:
   -
     image_mapping_type: image_style
-    image_mapping: 4_3_large_2x
+    image_mapping: 4_3_x_large
     breakpoint_id: rapidkit_image_styles.xl
     multiplier: 1x
   -
