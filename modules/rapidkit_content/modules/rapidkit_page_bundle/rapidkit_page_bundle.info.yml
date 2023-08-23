@@ -5,6 +5,3 @@ core_version_requirement: ^10
 package: RapidKit
 dependencies:
   - rapidkit_content:rapidkit_content
-  - rapidkit_image_styles:rapidkit_image_styles
-  - drupal:menu_ui
-  - drupal:text

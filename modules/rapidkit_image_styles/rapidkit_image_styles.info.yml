@@ -4,6 +4,4 @@ type: module
 core_version_requirement: ^10
 package: RapidKit
 dependencies:
-  - drupal:image
-  - drupal:responsive_image
   - rapidkit_media_bundle:rapidkit_media_bundle
