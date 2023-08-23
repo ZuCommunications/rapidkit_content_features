@@ -1,0 +1,9 @@
+name: Page Bundle
+description: "Provides basic page content type."
+type: module
+core_version_requirement: ^10
+package: RapidKit
+dependencies:
+  - rapidkit_content:rapidkit_content
+  - drupal:menu_ui
+  - drupal:text
