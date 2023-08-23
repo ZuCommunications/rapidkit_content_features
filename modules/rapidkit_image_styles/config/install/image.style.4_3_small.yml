@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.4_3
+  module:
+    - crop
+name: 4_3_small
+label: '4:3 Small (420x 315)'
+effects:
+  652f5aa2-bc4a-44ac-a3a2-74b3a3f3ee54:
+    uuid: 652f5aa2-bc4a-44ac-a3a2-74b3a3f3ee54
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 420
+      height: 415
+      anchor: center-center
+  c5a70acd-a2fa-48d1-886b-6596534b19d0:
+    uuid: c5a70acd-a2fa-48d1-886b-6596534b19d0
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: '4_3'
+      automatic_crop_provider: null

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.4_3
+  module:
+    - crop
+name: 4_3_medium
+label: '4:3 Medium (640 x 480)'
+effects:
+  6a5170f0-3cca-4ba5-86c8-972bcfb35866:
+    uuid: 6a5170f0-3cca-4ba5-86c8-972bcfb35866
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: '4_3'
+      automatic_crop_provider: null
+  4c561ceb-c641-4d00-a2a9-083baa558272:
+    uuid: 4c561ceb-c641-4d00-a2a9-083baa558272
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 640
+      height: 480
+      anchor: center-center

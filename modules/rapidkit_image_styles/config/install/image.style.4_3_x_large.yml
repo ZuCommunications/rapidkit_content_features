@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.4_3
+  module:
+    - crop
+name: 4_3_x_large
+label: '4:3 X-Large (1280 x 960)'
+effects:
+  f1ec6993-1837-45b6-af87-693d7eed9641:
+    uuid: f1ec6993-1837-45b6-af87-693d7eed9641
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: '4_3'
+      automatic_crop_provider: null
+  dc7a62c8-ed01-4be2-a456-265df233ec19:
+    uuid: dc7a62c8-ed01-4be2-a456-265df233ec19
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1280
+      height: 960
+      anchor: center-center
