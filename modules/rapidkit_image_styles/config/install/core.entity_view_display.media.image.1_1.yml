@@ -8,7 +8,7 @@ dependencies:
     - responsive_image.styles.1_1
   module:
     - svg_image_responsive
-id: media.image.responsive_1_1
+id: media.image.1_1
 targetEntityType: media
 bundle: image
 mode: 1_1
