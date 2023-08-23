@@ -1,25 +1,16 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - crop.type.16_9
   module:
-    - crop
+    - focal_point
 name: 16_9_2x_large
 label: '16:9 2X-Large(1280 x 720)'
 effects:
-  8a951456-7c1a-4f5d-8576-d00c4787e758:
-    uuid: 8a951456-7c1a-4f5d-8576-d00c4787e758
-    id: crop_crop
+  e775a34b-cfb0-4d56-befc-f519a4a766e1:
+    uuid: e775a34b-cfb0-4d56-befc-f519a4a766e1
+    id: focal_point_scale_and_crop
     weight: 1
-    data:
-      crop_type: '16_9'
-      automatic_crop_provider: null
-  c541eb52-f9f3-42ca-99eb-cb0cbbb02d96:
-    uuid: c541eb52-f9f3-42ca-99eb-cb0cbbb02d96
-    id: image_scale_and_crop
-    weight: 2
     data:
       width: 1280
       height: 720
-      anchor: center-center
+      crop_type: focal_point

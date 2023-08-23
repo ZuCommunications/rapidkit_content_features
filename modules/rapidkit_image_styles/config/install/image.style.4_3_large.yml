@@ -1,25 +1,16 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - crop.type.4_3
   module:
-    - crop
+    - focal_point
 name: 4_3_large
 label: '4:3 Large (800 x 600)'
 effects:
-  9f67646a-4989-4934-8628-4e2e0ac94f3a:
-    uuid: 9f67646a-4989-4934-8628-4e2e0ac94f3a
-    id: crop_crop
+  f75bd709-ef26-4d01-af4b-363d60b1430f:
+    uuid: f75bd709-ef26-4d01-af4b-363d60b1430f
+    id: focal_point_scale_and_crop
     weight: 1
-    data:
-      crop_type: '4_3'
-      automatic_crop_provider: null
-  5890a5d2-c172-48a0-9c16-24048fb004d9:
-    uuid: 5890a5d2-c172-48a0-9c16-24048fb004d9
-    id: image_scale_and_crop
-    weight: 2
     data:
       width: 800
       height: 600
-      anchor: center-center
+      crop_type: focal_point

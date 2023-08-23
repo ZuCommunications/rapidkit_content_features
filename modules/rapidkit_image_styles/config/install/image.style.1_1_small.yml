@@ -1,25 +1,16 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - crop.type.1_1
   module:
-    - crop
+    - focal_point
 name: 1_1_small
 label: '1:1 Small (200 x 200)'
 effects:
-  18354ffc-f1b4-484f-99be-bab55f4b70b0:
-    uuid: 18354ffc-f1b4-484f-99be-bab55f4b70b0
-    id: image_scale_and_crop
-    weight: -9
+  4de12b0f-c614-4802-a760-2fc0c2584ac9:
+    uuid: 4de12b0f-c614-4802-a760-2fc0c2584ac9
+    id: focal_point_scale_and_crop
+    weight: 3
     data:
       width: 200
       height: 200
-      anchor: center-center
-  024b6a87-4268-4b6a-82fe-ec946e34432e:
-    uuid: 024b6a87-4268-4b6a-82fe-ec946e34432e
-    id: crop_crop
-    weight: -10
-    data:
-      crop_type: '1_1'
-      automatic_crop_provider: null
+      crop_type: focal_point
