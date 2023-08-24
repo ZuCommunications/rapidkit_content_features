@@ -4,4 +4,5 @@ type: module
 core_version_requirement: ^10
 package: RapidKit
 dependencies:
-  - rapidkit_content:rapidkit_content
+  - field_group:field_group
+  - rapidkit_image_styles:rapidkit_image_styles

@@ -1,0 +1,5 @@
+name: RapidKit Text Block Bundle
+type: module
+description: 'Simple text custom block type.'
+package: Ignite Blocks
+core_version_requirement: ^10'
