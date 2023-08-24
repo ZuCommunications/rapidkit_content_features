@@ -2,7 +2,7 @@ name: RapidKit Blocks
 description: "Base fields for Rapidkit's block bundles."
 type: module
 core_version_requirement: ^10
-package: RapidKit
+package: RapidKit Blocks
 dependencies:
   - drupal:block_content
   - auto_entitylabel:auto_entitylabel

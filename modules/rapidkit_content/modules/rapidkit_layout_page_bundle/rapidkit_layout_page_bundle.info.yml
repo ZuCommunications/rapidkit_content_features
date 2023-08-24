@@ -1,8 +1,8 @@
-name: Page Bundle
+name: Layout Bundle
 description: "Provides layout content type with layout builder functionality."
 type: module
 core_version_requirement: ^10
-package: RapidKit
+package: RapidKit Content
 dependencies:
   - drupal:layout_builder
   - inline_block_title_automatic:inline_block_title_automatic
