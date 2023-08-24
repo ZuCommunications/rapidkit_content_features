@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.basic_page.body
-    - field.field.node.basic_page.field_banner
+    - field.field.node.basic_page.field_media
     - node.type.basic_page
   module:
     - text
@@ -28,4 +28,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_banner: true
+  field_media: true

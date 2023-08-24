@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page.body
-    - field.field.node.basic_page.field_banner
+    - field.field.node.basic_page.field_media
     - node.type.basic_page
   module:
     - text
@@ -20,7 +20,7 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_banner:
+  field_media:
     type: entity_reference_entity_view
     label: hidden
     settings:

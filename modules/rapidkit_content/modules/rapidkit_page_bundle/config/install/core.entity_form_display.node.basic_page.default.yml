@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page.body
-    - field.field.node.basic_page.field_banner
+    - field.field.node.basic_page.field_media
     - node.type.basic_page
   module:
     - field_group
@@ -14,7 +14,7 @@ third_party_settings:
   field_group:
     group_content:
       children:
-        - field_banner
+        - field_media
         - body
       label: Content
       region: content
@@ -49,7 +49,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_banner:
+  field_media:
     type: media_library_widget
     weight: 10
     region: content

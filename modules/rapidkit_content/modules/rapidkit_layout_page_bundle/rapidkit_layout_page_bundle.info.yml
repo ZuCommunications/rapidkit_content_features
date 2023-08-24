@@ -1,4 +1,4 @@
-name: Layout Bundle
+name: Layout Page Bundle
 description: "Provides layout content type with layout builder functionality."
 type: module
 core_version_requirement: ^10
