@@ -1,0 +1,14 @@
+name: RapidKit Webform
+description: "Provides Webform and add-on configurations. "
+type: module
+core_version_requirement: ^10
+package: RapidKit
+dependencies:
+  - antibot:antibot
+  - captcha:captcha
+  - honeypot:honeypot
+  - recaptcha:recaptcha
+  - recaptcha_v3:recaptcha_v3
+  - webform:webform
+  - webform:webform_attachment
+  - webform:webform_ui
