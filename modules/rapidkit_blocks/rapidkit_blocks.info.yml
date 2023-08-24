@@ -1,5 +1,5 @@
 name: RapidKit Blocks
-description: "Base fields for Rapidkit's block features."
+description: "Base fields for Rapidkit's block bundles."
 type: module
 core_version_requirement: ^10
 package: RapidKit

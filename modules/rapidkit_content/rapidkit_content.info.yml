@@ -1,0 +1,7 @@
+name: RapidKit Content
+description: "Provide base fields and features for Rapidkit's content type bundles"
+type: module
+core_version_requirement: ^10
+package: RapidKit
+  - field_group:field_group
+  - rapidkit_image_styles:rapidkit_image_styles
