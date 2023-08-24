@@ -3,5 +3,6 @@ description: "Provide base fields and features for Rapidkit's content type bundl
 type: module
 core_version_requirement: ^10
 package: RapidKit Content
+dependencies:
   - field_group:field_group
   - rapidkit_image_styles:rapidkit_image_styles
