@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: image
+block_id: 'inline_block:media'
+category: media
+label: Image
+image_path: ''
+image_alt: ''
+weight: -100

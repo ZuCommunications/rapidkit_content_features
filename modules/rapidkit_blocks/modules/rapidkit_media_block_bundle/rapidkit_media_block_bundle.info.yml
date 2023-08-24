@@ -1,0 +1,7 @@
+name: Media Block Bundle
+type: module
+description: 'Simple media custom block type.'
+package: RapidKit Blocks
+core_version_requirement: ^10
+dependencies:
+  - rapidkit_blocks:rapidkit_blocks

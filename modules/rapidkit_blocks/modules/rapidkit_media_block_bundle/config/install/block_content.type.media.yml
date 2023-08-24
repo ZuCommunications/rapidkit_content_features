@@ -1,0 +1,8 @@
+uuid: 78f4909e-bdee-4f5d-b900-53c5eea01e3e
+langcode: en
+status: true
+dependencies: {  }
+id: media
+label: Media
+revision: 0
+description: 'Place an media asset on the page.'
