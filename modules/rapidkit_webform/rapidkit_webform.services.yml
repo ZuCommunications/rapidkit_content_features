@@ -1,0 +1,5 @@
+services:
+  rapidkit_webform.overrider:
+    class: Drupal\rapidkit_webform\Config\ConfigRapidkitWebformOverrider
+    tags:
+      - { name: config.factory.override, priority: 5 }
