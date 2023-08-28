@@ -10,3 +10,4 @@ dependencies:
   - layout_builder_browser:layout_builder_browser
   - layout_builder_restrictions:layout_builder_restrictions
   - rapidkit_blocks:rapidkit_blocks
+  - rapidkit_content:rapidkit_content
