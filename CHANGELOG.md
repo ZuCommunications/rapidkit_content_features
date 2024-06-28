@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/ZuCommunications/rapidkit_content_features/compare/v1.1.0...v1.1.1) (2024-06-28)
+
+
+### Bug Fixes
+
+* update webform to remove polyfill ([6fcf7ac](https://github.com/ZuCommunications/rapidkit_content_features/commit/6fcf7acc1ff12050165aa878a3da6a39b7be303f))
+
 ## 1.1.0 (2023-09-16)
 
 
