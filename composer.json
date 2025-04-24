@@ -17,7 +17,7 @@
     "drupal/antibot": "^2.0",
     "drupal/better_exposed_filters": "^6.0",
     "drupal/entity_usage": "^2.0@beta",
-    "drupal/field_group": "^3.6",
+    "drupal/field_group": "^4.0",
     "drupal/geolocation": "^3.12",
     "drupal/honeypot": "^2.1",
     "drupal/inline_block_title_automatic": "^1.1",
