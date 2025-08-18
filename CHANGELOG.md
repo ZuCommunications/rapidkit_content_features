@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ZuCommunications/rapidkit_content_features/compare/v1.1.5...v1.2.0) (2025-08-18)
+
+
+### Features
+
+* **composer:** ⬆️ upgrade to major versions ([8060b80](https://github.com/ZuCommunications/rapidkit_content_features/commit/8060b80306130579499c4601e9492bf4632b14b9))
+
 ### [1.1.5](https://github.com/ZuCommunications/rapidkit_content_features/compare/v1.1.4...v1.1.5) (2025-04-24)
 
 ### [1.1.4](https://github.com/ZuCommunications/rapidkit_content_features/compare/v1.1.3...v1.1.4) (2025-02-18)
